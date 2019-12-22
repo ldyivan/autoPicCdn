@@ -127,7 +127,7 @@
           base64 = base64.split(",")[1];
           $.ajax({
             type: "post",
-            url: "./up.php",
+            url: "http://url.hzv5.cn/api/upimage.php",
             dataType: "json",
             data: { ext: ext, content: base64 },
             async: true,
